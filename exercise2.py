@@ -37,7 +37,6 @@ app.layout = html.Div(children=[
                 {'x': year, 'y': unemployment_percentage, 'type': 'line', 'name': 'Unemployment Percentage'},
             ],
             # configure the layout of the visualization --
-            # set the title to be "Usage of the BGT North of NE 70th per week day"
             'layout': {
                 'title': 'Percentage of Unemployed People in USA'
             }
